@@ -1,0 +1,37 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: #222;
+}
+
+.main-title img {
+  height: 100px;
+}
+
+.table {
+  width: 100%;
+}
+
+.main {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.page-link {
+  color: black !important;
+}
