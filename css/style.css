@@ -7,20 +7,26 @@ body, html {
 .title {
   color: white;
   margin: 0;
-  padding: 0;
+  padding: 25px 0;
 }
 
 .main-title {
   display: flex;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  text-align: center;
+  background-image: url('../assets/background.png');
+}
+
+.main-title_container--inner {
+  display: flex;
   flex-direction: row;
   align-items: center;
-  text-align: center;
-  width: 100%;
-  background-color: #222;
 }
 
 .main-title img {
-  height: 100px;
+  height: 70px;
 }
 
 .table {
