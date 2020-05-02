@@ -23,6 +23,11 @@ body, html {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: -10px;
+}
+
+.navbar {
+  width: 100%;
 }
 
 .main-title img {
@@ -40,4 +45,70 @@ body, html {
 
 .page-link {
   color: black !important;
+}
+
+/* COR DAS COLUNAS */
+
+/* PONTUAÇÂO */
+
+.dez {
+  background-color: rgb(15, 226, 15);
+}
+
+.nove {
+  background-color: rgb(0, 153, 13);
+}
+
+.oito {
+  background-color: rgb(153, 187, 1);
+}
+
+.sete {
+  background-color: rgb(231, 235, 8);
+}
+
+.seis {
+  background-color: rgb(214, 201, 10);
+}
+
+.cinco {
+  background-color: rgb(221, 191, 20);
+}
+
+.quatro {
+  background-color: rgb(212, 162, 22);
+}
+
+.tres {
+  background-color: rgb(201, 98, 2);
+}
+
+.dois {
+  background-color: rgb(194, 55, 0);
+}
+
+.um {
+  background-color: rgb(194, 0, 0);
+}
+
+/* DIFICULDADE */
+
+.a {
+  background-color: rgb(218, 40, 40);
+}
+
+.b {
+  background-color: rgb(238, 102, 11);
+}
+
+.c {
+  background-color: rgb(230, 190, 13);
+}
+
+.d {
+  background-color: rgb(174, 192, 15);
+}
+
+.e {
+  background-color: rgb(143, 228, 15);
 }

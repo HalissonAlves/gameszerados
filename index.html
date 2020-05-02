@@ -16,12 +16,28 @@
 
 <body>
 
-  <div class="main-title">
-    <section class="main-title_container--inner">
-      <img src="./assets/emotePardal.png" alt="logo pardal">
-      <h1 class="title">Games Zerados</h1>
-    </section>
-  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" class="navbar">
+    <a class="navbar-brand" href="#">
+      <section class="main-title_container--inner">
+        <img src="./assets/emotePardal.png" alt="logo pardal">
+        <h1 class="title">Games Zerados</h1>
+      </section>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Lista <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/analytics">Estatísticas</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <div class="main mb-3 mt-3">
     <table class="table table-striped table-bordered mydatatable">
@@ -32,6 +48,7 @@
           <th>Estilo</th>
           <th>Data</th>
           <th>Tempo(h)</th>
+          <th>Dificuldade</th>
           <th>Nota</th>
         </tr>
       </thead>
@@ -43,7 +60,8 @@
           <td>Ação</td>
           <td>23/03/2020</td>
           <td>12.3</td>
-          <td>8</td>
+          <td class="c">C</td>
+          <td class="oito">8</td>
         </tr>
         <!-- ARAGAMI -->
         <tr>
@@ -52,7 +70,8 @@
           <td>Stealth</td>
           <td>02/04/2020</td>
           <td>9.0</td>
-          <td>8</td>
+          <td class="b">B</td>
+          <td class="oito">8</td>
         </tr>
         <!-- CUPHEAD -->
         <tr>
@@ -61,7 +80,8 @@
           <td>Plataforma</td>
           <td>08/04/2020</td>
           <td>14.0</td>
-          <td>10</td>
+          <td class="a">A</td>
+          <td class="dez">10</td>
         </tr>
         <!-- TUROK -->
         <tr>
@@ -70,15 +90,27 @@
           <td>Plataforma</td>
           <td>29/04/2020</td>
           <td>9.0</td>
-          <td>6</td>
-          <!-- CRASH BANDICOOT -->
+          <td class="c">C</td>
+          <td class="seis">6</td>
+        <!-- CRASH BANDICOOT -->
         <tr>
           <td>Crash Bandicoot</td>
           <td>PlayStation 1</td>
           <td>Plataforma</td>
           <td>30/04/2020</td>
           <td>8.0</td>
-          <td>8</td>
+          <td class="c">C</td>
+          <td class="oito">8</td>
+        </tr>
+        <!-- MEGAMAN -->
+        <tr>
+          <td>Megaman</td>
+          <td>NES</td>
+          <td>Plataforma</td>
+          <td>02/05/2020</td>
+          <td>4.0</td>
+          <td class="a">A</td>
+          <td class="sete">7</td>
         </tr>
       </tbody>
       <tfoot>
