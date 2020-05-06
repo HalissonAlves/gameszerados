@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Games Zerados</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="./assets/gamepad.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" class="navbar">
+    <a class="navbar-brand" href="#">
+      <section class="main-title_container--inner">
+        <img src="./assets/emotePardal.png" alt="logo pardal">
+      </section>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav container_buttons">
+        <li class="nav-item btn">
+          <a class="nav-link" href="./index.html">Games Zerados <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item btn">
+          <a class="nav-link" href="./information.html">Informações <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div class="container--title_rank bg-dark">Classificação por Notas</div>
+        <table class="table">
+          <tbody>
+            <tr class="onze">
+              <th scope="row">11</th>
+              <td>Fenômeno pra vida toda!</td>
+            </tr>
+            <tr class="dez">
+              <th scope="row">10</th>
+              <td>Incrível</td>
+            </tr>
+            <tr class="nove">
+              <th scope="row">9</th>
+              <td>Ótimo</td>
+            </tr>
+            <tr class="oito">
+              <th scope="row">8</th>
+              <td>Muito Bom</td>
+            </tr>
+            <tr class="sete">
+              <th scope="row">7</th>
+              <td>Bom</td>
+            </tr>
+            <tr class="seis">
+              <th scope="row">6</th>
+              <td>Decente</td>
+            </tr>
+            <tr class="cinco">
+              <th scope="row">5</th>
+              <td>Tanto Faz</td>
+            </tr>
+            <tr class="quatro">
+              <th scope="row">4</th>
+              <td>Mediocre</td>
+            </tr>
+            <tr class="tres">
+              <th scope="row">3</th>
+              <td>Ruim</td>
+            </tr>
+            <tr class="dois">
+              <th scope="row">2</th>
+              <td>Terrível</td>
+            </tr>
+            <tr class="um">
+              <th scope="row">1</th>
+              <td>Pedaço de cocô!</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col-6">
+        <div class="container--title_rank bg-dark">Classificação por Dificuldade</div>
+        <table class="table">
+          <tbody>
+            <tr class="a">
+              <th scope="row">A</th>
+              <td>Senta e chora!</td>
+            </tr>
+            <tr class="b">
+              <th scope="row">B</th>
+              <td>Difícil</td>
+            </tr>
+            <tr class="c">
+              <th scope="row">C</th>
+              <td>Normal</td>
+            </tr>
+            <tr class="d">
+              <th scope="row">D</th>
+              <td>Fácil</td>
+            </tr>
+            <tr class="e">
+              <th scope="row">E</th>
+              <td>Passeio no parque!</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+  <script>
+    $('.mydatatable').DataTable({
+      "language": {
+        "sEmptyTable": "Nenhum registro encontrado",
+        "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ jogos",
+        "sInfoEmpty": "Mostrando 0 até 0 de 0 jogos",
+        "sInfoFiltered": "(Filtrados de _MAX_ jogos)",
+        "sInfoPostFix": "",
+        "sInfoThousands": ".",
+        "sLengthMenu": "Número de jogos por página: _MENU_",
+        "sLoadingRecords": "Carregando...",
+        "sProcessing": "Processando...",
+        "sZeroRecords": "Nenhum jogo encontrado",
+        "sSearch": "Pesquisar:",
+        "oPaginate": {
+          "sNext": "Próximo",
+          "sPrevious": "Anterior",
+          "sFirst": "Primeiro",
+          "sLast": "Último"
+        },
+        "oAria": {
+          "sSortAscending": ": Ordenar colunas de forma ascendente",
+          "sSortDescending": ": Ordenar colunas de forma descendente"
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>

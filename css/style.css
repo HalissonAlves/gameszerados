@@ -26,6 +26,17 @@ body, html {
   margin-top: -10px;
 }
 
+.container {
+  margin-top: 15px;
+}
+
+.container--title_rank {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
 .navbar {
   width: 100%;
 }
@@ -51,64 +62,101 @@ body, html {
 
 /* PONTUAÇÂO */
 
+.onze {
+  background-color: rgb(111, 15, 190);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
 .dez {
-  background-color: rgb(15, 226, 15);
+  background-color: rgb(40,232,46);
+  font-weight: bold;
+  text-align: center;
 }
 
 .nove {
-  background-color: rgb(0, 153, 13);
+  background-color: rgb(108,232,45);
+  font-weight: bold;
+  text-align: center;
 }
 
 .oito {
-  background-color: rgb(153, 187, 1);
+  background-color: rgb(186,242,34);
+  font-weight: bold;
+  text-align: center;
 }
 
 .sete {
-  background-color: rgb(231, 235, 8);
+  background-color: rgb(242,252,31);
+  font-weight: bold;
+  text-align: center;
 }
 
 .seis {
-  background-color: rgb(214, 201, 10);
+  background-color: rgb(240,236,28);
+  font-weight: bold;
+  text-align: center;
 }
 
 .cinco {
-  background-color: rgb(221, 191, 20);
+  background-color: rgb(243,204,22);
+  font-weight: bold;
+  text-align: center;
 }
 
 .quatro {
-  background-color: rgb(212, 162, 22);
+  background-color: rgb(243,150,4);
+  font-weight: bold;
+  text-align: center;
 }
 
 .tres {
-  background-color: rgb(201, 98, 2);
+  background-color: rgb(240,104,0);
+  font-weight: bold;
+  text-align: center;
 }
 
 .dois {
-  background-color: rgb(194, 55, 0);
+  background-color: rgb(239,73,0);
+  font-weight: bold;
+  text-align: center;
 }
 
 .um {
-  background-color: rgb(194, 0, 0);
+  background-color: rgb(241,58,0);
+  font-weight: bold;
+  text-align: center;
 }
 
 /* DIFICULDADE */
 
 .a {
-  background-color: rgb(218, 40, 40);
+  background-color: rgb(241,58,0);
+  font-weight: bold;
+  text-align: center;
 }
 
 .b {
-  background-color: rgb(238, 102, 11);
+  background-color: rgb(240,104,0);
+  font-weight: bold;
+  text-align: center;
 }
 
 .c {
-  background-color: rgb(230, 190, 13);
+  background-color: rgb(243,204,22);
+  font-weight: bold;
+  text-align: center;
 }
 
 .d {
-  background-color: rgb(174, 192, 15);
+  background-color: rgb(186,242,34);
+  font-weight: bold;
+  text-align: center;
 }
 
 .e {
-  background-color: rgb(143, 228, 15);
+  background-color: rgb(40,232,46);
+  font-weight: bold;
+  text-align: center;
 }
