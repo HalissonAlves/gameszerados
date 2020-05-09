@@ -1,0 +1,15 @@
+.container_outter {
+    margin: 40px 0;
+}
+
+.container_pie {
+    margin-bottom: 40px;
+}
+
+.container_pie--title {
+    text-align: center;
+}
+
+.container_doughnut--title {
+    text-align: center;
+}

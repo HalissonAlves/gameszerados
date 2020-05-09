@@ -8,12 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="./assets/gamepad.png">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/statistics.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
 
 </head>
 
@@ -44,30 +46,42 @@
     </div>
   </nav>
 
-  <div class="main mb-3 mt-3">
-    <table class="table table-striped table-bordered mydatatable" id="myTable">
-      <thead>
-        <tr>
-          <th>Game</th>
-          <th>Plataforma</th>
-          <th>Estilo</th>
-          <th>Data</th>
-          <th>Dificuldade</th>
-          <th>Nota</th>
-        </tr>
-      </thead>
-      <tbody id="tableBody">
-      </tbody>
-      <tfoot>
-      </tfoot>
-    </table>
+  <section class="container_outter">
+    <div class="container">
+      <div class="row container_pie">
+        <div class="col-12 col-sm-6">
+          <div class="container_pie--title">Quantidade de Jogos por Plataforma</div>
+          <canvas id="platformPizza" width="40vw" height="40vh"></canvas>
+        </div>
+        <div class="col-12 col-sm-6">
+          <div class="container_doughnut--title">Quantidade de Jogos por Gênero</div>
+          <canvas id="doughnutGraph" width="40vw" height="40vh"></canvas>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <canvas id="lineGraph" width="40vw" height="20"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="row">
+    <div id="div1"></div>
+  </div>
   </div>
 
 
-  <script src="./js/main.js"></script>
+  <script src="./js/chart.js"></script>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
@@ -77,33 +91,7 @@
 
   <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
-  <script>
-    $('.mydatatable').DataTable({
-      "language": {
-        "sEmptyTable": "Nenhum registro encontrado",
-        "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ jogos",
-        "sInfoEmpty": "Mostrando 0 até 0 de 0 jogos",
-        "sInfoFiltered": "(Filtrados de _MAX_ jogos)",
-        "sInfoPostFix": "",
-        "sInfoThousands": ".",
-        "sLengthMenu": "Número de jogos por página: _MENU_",
-        "sLoadingRecords": "Carregando...",
-        "sProcessing": "Processando...",
-        "sZeroRecords": "Nenhum jogo encontrado",
-        "sSearch": "Pesquisar:",
-        "oPaginate": {
-          "sNext": "Próximo",
-          "sPrevious": "Anterior",
-          "sFirst": "Primeiro",
-          "sLast": "Último"
-        },
-        "oAria": {
-          "sSortAscending": ": Ordenar colunas de forma ascendente",
-          "sSortDescending": ": Ordenar colunas de forma descendente"
-        }
-      }
-    });
-  </script>
+
 </body>
 
 </html>
