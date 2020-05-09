@@ -1,0 +1,132 @@
+{
+    "games": [
+        {
+            "name": "Tomb Raider",
+            "platform": "PC",
+            "genre": "Ação",
+            "date": "23/03/2020",
+            "dificulty": "C",
+            "score": "8"
+        },
+        {
+            "name": "Aragami",
+            "platform": "PC",
+            "genre": "Stealth",
+            "date": "02/04/2020",
+            "dificulty": "B",
+            "score": "8"
+        },
+        {
+            "name": "Cuphead",
+            "platform": "PC",
+            "genre": "Plataforma",
+            "date": "08/04/2020",
+            "dificulty": "A",
+            "score": "10"
+        },
+        {
+            "name": "Turok: Dinosaur Hunter",
+            "platform": "PC",
+            "genre": "FPS",
+            "date": "29/04/2020",
+            "dificulty": "C",
+            "score": "6"
+        },
+        {
+            "name": "Crash Bandicoot",
+            "platform": "PSONE",
+            "genre": "Plataforma",
+            "date": "30/04/2020",
+            "dificulty": "C",
+            "score": "8"
+        },
+        {
+            "name": "Mega Man",
+            "platform": "Nintendinho",
+            "genre": "Plataforma",
+            "date": "02/05/2020",
+            "dificulty": "A",
+            "score": "8"
+        },
+        {
+            "name": "Super Mario Bros",
+            "platform": "Nintendinho",
+            "genre": "Plataforma",
+            "date": "03/05/2020",
+            "dificulty": "C",
+            "score": "7"
+        },
+        {
+            "name": "Unravel 2",
+            "platform": "PC",
+            "genre": "Plataforma",
+            "date": "09/04/2020",
+            "dificulty": "C",
+            "score": "10"
+        },
+        {
+            "name": "AVICII Invector",
+            "platform": "PC",
+            "genre": "Rhythm",
+            "date": "03/05/2020",
+            "dificulty": "B",
+            "score": "9"
+        },
+        {
+            "name": "Katana Zero",
+            "platform": "PC",
+            "genre": "Plataforma",
+            "date": "03/05/2020",
+            "dificulty": "B",
+            "score": "9"
+        },
+        {
+            "name": "Astérix",
+            "platform": "Nintendinho",
+            "genre": "Plataforma",
+            "date": "05/05/2020",
+            "dificulty": "C",
+            "score": "6"
+        },
+        {
+            "name": "Double Dragon 2",
+            "platform": "Nintendinho",
+            "genre": "Beat'em Up",
+            "date": "06/05/2020",
+            "dificulty": "B",
+            "score": "7"
+        },
+        {
+            "name": "Donkey Kong",
+            "platform": "Nintendinho",
+            "genre": "Plataforma",
+            "date": "06/05/2020",
+            "dificulty": "C",
+            "score": "5"
+        },
+        {
+            "name": "Speed Racer",
+            "platform": "Super Nintendo",
+            "genre": "Corrida",
+            "date": "07/05/2020",
+            "dificulty": "C",
+            "score": "5"
+        },
+        {
+            "name": "Contra",
+            "platform": "Nintendinho",
+            "genre": "Plataforma",
+            "date": "08/05/2020",
+            "dificulty": "A",
+            "score": "10"
+        },
+        {
+            "name": "Old School Musical",
+            "platform": "PC",
+            "genre": "Rhythm",
+            "date": "08/05/2020",
+            "dificulty": "C",
+            "score": "9"
+        }
+    ]
+}
