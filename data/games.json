@@ -5,128 +5,128 @@
             "platform": "PC",
             "genre": "Ação",
             "date": "23/03/2020",
-            "dificulty": "C",
-            "score": "8"
+            "dificulty": "Normal",
+            "score": "Muito Bom"
         },
         {
             "name": "Aragami",
             "platform": "PC",
             "genre": "Stealth",
             "date": "02/04/2020",
-            "dificulty": "B",
-            "score": "8"
+            "dificulty": "Difícil",
+            "score": "Muito Bom"
         },
         {
             "name": "Cuphead",
             "platform": "PC",
             "genre": "Plataforma",
             "date": "08/04/2020",
-            "dificulty": "A",
-            "score": "10"
+            "dificulty": "Senta e Chora",
+            "score": "Incrível"
         },
         {
             "name": "Turok: Dinosaur Hunter",
             "platform": "PC",
             "genre": "FPS",
             "date": "29/04/2020",
-            "dificulty": "C",
-            "score": "6"
+            "dificulty": "Normal",
+            "score": "Decente"
         },
         {
             "name": "Crash Bandicoot",
             "platform": "PSONE",
             "genre": "Plataforma",
             "date": "30/04/2020",
-            "dificulty": "C",
-            "score": "8"
+            "dificulty": "Normal",
+            "score": "Muito Bom"
         },
         {
             "name": "Mega Man",
             "platform": "Nintendinho",
             "genre": "Plataforma",
             "date": "02/05/2020",
-            "dificulty": "A",
-            "score": "8"
+            "dificulty": "Senta e Chora",
+            "score": "Muito Bom"
         },
         {
             "name": "Super Mario Bros",
             "platform": "Nintendinho",
             "genre": "Plataforma",
             "date": "03/05/2020",
-            "dificulty": "C",
-            "score": "7"
+            "dificulty": "Normal",
+            "score": "Bom"
         },
         {
             "name": "Unravel 2",
             "platform": "PC",
             "genre": "Plataforma",
             "date": "09/04/2020",
-            "dificulty": "C",
-            "score": "10"
+            "dificulty": "Normal",
+            "score": "Incrível"
         },
         {
             "name": "AVICII Invector",
             "platform": "PC",
             "genre": "Rhythm",
             "date": "03/05/2020",
-            "dificulty": "B",
-            "score": "9"
+            "dificulty": "Difícil",
+            "score": "Ótimo"
         },
         {
             "name": "Katana Zero",
             "platform": "PC",
             "genre": "Plataforma",
             "date": "03/05/2020",
-            "dificulty": "B",
-            "score": "9"
+            "dificulty": "Difícil",
+            "score": "Ótimo"
         },
         {
             "name": "Astérix",
             "platform": "Nintendinho",
             "genre": "Plataforma",
             "date": "05/05/2020",
-            "dificulty": "C",
-            "score": "6"
+            "dificulty": "Normal",
+            "score": "Decente"
         },
         {
             "name": "Double Dragon 2",
             "platform": "Nintendinho",
             "genre": "Beat'em Up",
             "date": "06/05/2020",
-            "dificulty": "B",
-            "score": "7"
+            "dificulty": "Difícil",
+            "score": "Bom"
         },
         {
             "name": "Donkey Kong",
             "platform": "Nintendinho",
             "genre": "Plataforma",
             "date": "06/05/2020",
-            "dificulty": "C",
-            "score": "5"
+            "dificulty": "Normal",
+            "score": "Tanto Faz"
         },
         {
             "name": "Speed Racer",
             "platform": "Super Nintendo",
             "genre": "Corrida",
             "date": "07/05/2020",
-            "dificulty": "C",
-            "score": "5"
+            "dificulty": "Normal",
+            "score": "Tanto Faz"
         },
         {
             "name": "Contra",
             "platform": "Nintendinho",
             "genre": "Plataforma",
             "date": "08/05/2020",
-            "dificulty": "A",
-            "score": "10"
+            "dificulty": "Senta e Chora",
+            "score": "Incrível"
         },
         {
             "name": "Old School Musical",
             "platform": "PC",
             "genre": "Rhythm",
             "date": "08/05/2020",
-            "dificulty": "C",
-            "score": "9"
+            "dificulty": "Normal",
+            "score": "Ótimo"
         }
     ]
 }

@@ -23,8 +23,8 @@ $(document).ready(function () {
         gamesData[index].platform,
         gamesData[index].genre,
         gamesData[index].date,
-        gamesData[index].score,
         gamesData[index].dificulty,
+        gamesData[index].score
       ]).draw(false);
 
     }
