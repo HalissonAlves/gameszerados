@@ -3,7 +3,7 @@ var gamesData = [];
 $(document).ready(function () {
 
   $.ajax({
-    url: "../data/games.json", success: function (result) {
+    url: "./data/games.json", success: function (result) {
       console.log(result)
       result.games.map(el => {
         gamesData.push(el);

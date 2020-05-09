@@ -47,7 +47,7 @@ var colorArray =
 $(document).ready(function () {
 
     $.ajax({
-        url: "../data/games.json", success: function (result) {
+        url: "./data/games.json", success: function (result) {
             result.games.map(el => {
                 allData.push(el);
                 const tempData = el.date.slice(3, 5);
