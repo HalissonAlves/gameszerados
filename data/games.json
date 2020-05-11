@@ -135,6 +135,14 @@
             "date": "10/05/2020",
             "dificulty": "Difícil",
             "score": "Ótimo"
+        },
+        {
+            "name": "Adventures of Lolo",
+            "platform": "Nintendinho",
+            "genre": "Puzzle",
+            "date": "11/05/2020",
+            "dificulty": "Normal",
+            "score": "Decente"
         }
     ]
 }
