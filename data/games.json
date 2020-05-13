@@ -143,6 +143,14 @@
             "date": "11/05/2020",
             "dificulty": "Normal",
             "score": "Decente"
+        },
+        {
+            "name": "Sunset Riders",
+            "platform": "Super Nintendo",
+            "genre": "Plataforma",
+            "date": "13/05/2020",
+            "dificulty": "Difícil",
+            "score": "Incrível"
         }
     ]
 }
