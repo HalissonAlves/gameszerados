@@ -151,6 +151,14 @@
             "date": "13/05/2020",
             "dificulty": "Difícil",
             "score": "Incrível"
+        },
+        {
+            "name": "Double Dragon",
+            "platform": "Nintendinho",
+            "genre": "Beat'em Up",
+            "date": "13/05/2020",
+            "dificulty": "Normal",
+            "score": "Ruim"
         }
     ]
 }
